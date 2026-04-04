@@ -1,0 +1,489 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.PeakmodoroShared-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/sources",
+      "importPath" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Sources/PeakmodoroShared/Models.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Sources/PeakmodoroShared/OperationalStateStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Sources/PeakmodoroShared/SnapshotPolicy.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "PeakmodoroShared",
+      "moduleOutputPath" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/Modules/PeakmodoroShared.swiftmodule",
+      "objects" : [
+        "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/Models.swift.o",
+        "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/OperationalStateStore.swift.o",
+        "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/SnapshotPolicy.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx15.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/include/PeakmodoroShared-Swift.h",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "apple"
+      ],
+      "outputFileMapPath" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/Models.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/OperationalStateStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/SnapshotPolicy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/Modules/PeakmodoroShared.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Sources/PeakmodoroShared/Models.swift",
+        "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Sources/PeakmodoroShared/OperationalStateStore.swift",
+        "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Sources/PeakmodoroShared/SnapshotPolicy.swift"
+      ],
+      "tempsPath" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.PeakmodoroValidation-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.build/sources",
+      "importPath" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Validation/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/Modules/PeakmodoroShared.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "PeakmodoroValidation",
+      "moduleOutputPath" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/Modules/PeakmodoroValidation.swiftmodule",
+      "objects" : [
+        "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx15.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "PeakmodoroValidation_main",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "apple"
+      ],
+      "outputFileMapPath" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/Modules/PeakmodoroValidation.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Validation/main.swift"
+      ],
+      "tempsPath" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "PeakmodoroShared" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "PeakmodoroShared",
+      "-package-name",
+      "apple",
+      "-c",
+      "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Sources/PeakmodoroShared/Models.swift",
+      "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Sources/PeakmodoroShared/OperationalStateStore.swift",
+      "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Sources/PeakmodoroShared/SnapshotPolicy.swift",
+      "-I",
+      "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx15.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/include/PeakmodoroShared-Swift.h",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "apple",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "PeakmodoroValidation" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "PeakmodoroValidation",
+      "-package-name",
+      "apple",
+      "-c",
+      "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Validation/main.swift",
+      "-I",
+      "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx15.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "PeakmodoroValidation_main",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "apple",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "PeakmodoroShared" : [
+
+    ],
+    "PeakmodoroValidation" : [
+      "PeakmodoroShared"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Sources/PeakmodoroShared/Models.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Sources/PeakmodoroShared/OperationalStateStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Sources/PeakmodoroShared/SnapshotPolicy.swift"
+        }
+      ],
+      "outputFilePath" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/sources"
+    },
+    "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation-entitlement.plist"
+    },
+    "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Validation/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.build/sources"
+    },
+    "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/Models.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/OperationalStateStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/SnapshotPolicy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.product/Objects.LinkFileList"
+    },
+    "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

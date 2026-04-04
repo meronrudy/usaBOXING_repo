@@ -1,0 +1,28 @@
+[package]
+name = "sportcore-kernel"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+default = []
+alloc = []
+serde = []
+ffi = []
+onnx = []
+opencv = []
+boxing = []
+swimming = []
+rowing = []
+equestrian = []
+equine = []
+
+[dependencies]
+sportcore-actors = { path = "../../crates/sportcore-actors" }
+sportcore-features = { path = "../../crates/sportcore-features" }
+sportcore-ids = { path = "../../crates/sportcore-ids" }
+sportcore-instruments = { path = "../../crates/sportcore-instruments" }
+sportcore-qa = { path = "../../crates/sportcore-qa" }
+sportcore-semantics = { path = "../../crates/sportcore-semantics" }
+sportcore-streams = { path = "../../crates/sportcore-streams" }
+sportcore-time = { path = "../../crates/sportcore-time" }
+sportcore-units = { path = "../../crates/sportcore-units" }

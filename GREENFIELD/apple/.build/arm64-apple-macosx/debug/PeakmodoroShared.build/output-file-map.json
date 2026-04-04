@@ -1,0 +1,26 @@
+{
+  "": {
+    "swift-dependencies": "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/master.swiftdeps"
+  },
+  "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Sources/PeakmodoroShared/Models.swift": {
+    "dependencies": "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/Models.d",
+    "object": "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/Models.swift.o",
+    "swiftmodule": "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/Models~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/Models.swiftdeps",
+    "diagnostics": "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/Models.dia"
+  },
+  "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Sources/PeakmodoroShared/OperationalStateStore.swift": {
+    "dependencies": "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/OperationalStateStore.d",
+    "object": "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/OperationalStateStore.swift.o",
+    "swiftmodule": "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/OperationalStateStore~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/OperationalStateStore.swiftdeps",
+    "diagnostics": "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/OperationalStateStore.dia"
+  },
+  "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Sources/PeakmodoroShared/SnapshotPolicy.swift": {
+    "dependencies": "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/SnapshotPolicy.d",
+    "object": "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/SnapshotPolicy.swift.o",
+    "swiftmodule": "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/SnapshotPolicy~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/SnapshotPolicy.swiftdeps",
+    "diagnostics": "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/SnapshotPolicy.dia"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroSharedPackageTests.build/master.swiftdeps"
+  },
+  "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroSharedPackageTests.derived/runner.swift": {
+    "dependencies": "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroSharedPackageTests.build/runner.d",
+    "object": "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroSharedPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroSharedPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroSharedPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroSharedPackageTests.build/runner.dia"
+  }
+}

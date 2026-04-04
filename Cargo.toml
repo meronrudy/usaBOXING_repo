@@ -1,0 +1,46 @@
+[workspace]
+resolver = "2"
+members = [
+  "crates/sportcore-ids",
+  "crates/sportcore-units",
+  "crates/sportcore-time",
+  "crates/sportcore-actors",
+  "crates/sportcore-instruments",
+  "crates/sportcore-streams",
+  "crates/sportcore-semantics",
+  "crates/sportcore-features",
+  "crates/sportcore-qa",
+  "crates/sportcore-kernel",
+  "crates/sportcore-ffi",
+  "crates/sportcore-cli",
+  "runtime/runtime-ingest",
+  "runtime/runtime-storage",
+  "runtime/runtime-sync",
+  "runtime/runtime-perception",
+  "runtime/runtime-features",
+  "runtime/runtime-models",
+  "runtime/runtime-eval",
+  "runtime/runtime-export",
+  "actor-packs/actor-human",
+  "actor-packs/actor-equine",
+  "actor-packs/actor-crewed-rig",
+  "sport-packs/sport-boxing",
+  "sport-packs/sport-swimming",
+  "sport-packs/sport-rowing",
+  "sport-packs/sport-equestrian",
+]
+
+[workspace.package]
+edition = "2024"
+version = "0.1.0"
+license = "Apache-2.0"
+
+[workspace.dependencies]
+bitflags = { version = "2", default-features = false }
+heapless = { version = "0.8", default-features = false }
+arrayvec = { version = "0.7", default-features = false }
+postcard = { version = "1", default-features = false, features = ["alloc"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+clap = { version = "4", features = ["derive"] }

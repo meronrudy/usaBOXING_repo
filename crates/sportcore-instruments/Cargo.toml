@@ -1,0 +1,22 @@
+[package]
+name = "sportcore-instruments"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+default = []
+alloc = []
+serde = []
+ffi = []
+onnx = []
+opencv = []
+boxing = []
+swimming = []
+rowing = []
+equestrian = []
+equine = []
+
+[dependencies]
+sportcore-actors = { path = "../../crates/sportcore-actors" }
+sportcore-ids = { path = "../../crates/sportcore-ids" }
+sportcore-units = { path = "../../crates/sportcore-units" }

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Session Bundle Manifest",
+  "type": "object",
+  "properties": {
+    "bundle_version": {
+      "type": "string"
+    },
+    "session_id": {
+      "type": "string"
+    },
+    "asset_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "checksums": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "bundle_version",
+    "session_id",
+    "asset_count",
+    "checksums"
+  ]
+}

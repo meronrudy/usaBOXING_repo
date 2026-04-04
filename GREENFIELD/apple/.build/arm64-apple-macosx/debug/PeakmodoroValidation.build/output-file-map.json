@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.build/master.swiftdeps"
+  },
+  "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Validation/main.swift": {
+    "dependencies": "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.build/main.d",
+    "object": "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.build/main.swift.o",
+    "swiftmodule": "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.build/main.swiftdeps",
+    "diagnostics": "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.build/main.dia"
+  }
+}

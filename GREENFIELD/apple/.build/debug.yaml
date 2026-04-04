@@ -1,0 +1,103 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "PeakmodoroShared-arm64-apple-macosx15.0-debug.module": ["<PeakmodoroShared-arm64-apple-macosx15.0-debug.module>"]
+  "PeakmodoroValidation-arm64-apple-macosx15.0-debug.exe": ["<PeakmodoroValidation-arm64-apple-macosx15.0-debug.exe>"]
+  "PeakmodoroValidation-arm64-apple-macosx15.0-debug.module": ["<PeakmodoroValidation-arm64-apple-macosx15.0-debug.module>"]
+  "main": ["<PeakmodoroShared-arm64-apple-macosx15.0-debug.module>","<PeakmodoroValidation-arm64-apple-macosx15.0-debug.exe>","<PeakmodoroValidation-arm64-apple-macosx15.0-debug.module>"]
+  "test": ["<PeakmodoroShared-arm64-apple-macosx15.0-debug.module>","<PeakmodoroValidation-arm64-apple-macosx15.0-debug.exe>","<PeakmodoroValidation-arm64-apple-macosx15.0-debug.module>"]
+default: "main"
+nodes:
+  "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Sources/PeakmodoroShared/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Validation/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation":
+    is-mutated: true
+commands:
+  "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Sources/PeakmodoroShared/Models.swift","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Sources/PeakmodoroShared/OperationalStateStore.swift","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Sources/PeakmodoroShared/SnapshotPolicy.swift"]
+    outputs: ["/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/sources"]
+    description: "Write auxiliary file /Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/sources"
+
+  "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation-entitlement.plist":
+    tool: write-auxiliary-file
+    inputs: ["<entitlement-plist>","<com.apple.security.get-task-allow>"]
+    outputs: ["/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation-entitlement.plist"]
+    description: "Write auxiliary file /Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation-entitlement.plist"
+
+  "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Validation/main.swift"]
+    outputs: ["/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.build/sources"]
+    description: "Write auxiliary file /Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.build/sources"
+
+  "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/Models.swift.o","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/OperationalStateStore.swift.o","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/SnapshotPolicy.swift.o","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.build/main.swift.o"]
+    outputs: ["/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.product/Objects.LinkFileList"
+
+  "/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"]
+    outputs: ["/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+
+  "<PeakmodoroShared-arm64-apple-macosx15.0-debug.module>":
+    tool: phony
+    inputs: ["/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/Models.swift.o","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/OperationalStateStore.swift.o","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/SnapshotPolicy.swift.o","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/Modules/PeakmodoroShared.swiftmodule"]
+    outputs: ["<PeakmodoroShared-arm64-apple-macosx15.0-debug.module>"]
+
+  "<PeakmodoroValidation-arm64-apple-macosx15.0-debug.exe>":
+    tool: phony
+    inputs: ["<PeakmodoroValidation-arm64-apple-macosx15.0-debug.exe-CodeSigning>"]
+    outputs: ["<PeakmodoroValidation-arm64-apple-macosx15.0-debug.exe>"]
+
+  "<PeakmodoroValidation-arm64-apple-macosx15.0-debug.module>":
+    tool: phony
+    inputs: ["/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.build/main.swift.o","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/Modules/PeakmodoroValidation.swiftmodule"]
+    outputs: ["<PeakmodoroValidation-arm64-apple-macosx15.0-debug.module>"]
+
+  "C.PeakmodoroShared-arm64-apple-macosx15.0-debug.module":
+    tool: shell
+    inputs: ["/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Sources/PeakmodoroShared/Models.swift","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Sources/PeakmodoroShared/OperationalStateStore.swift","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Sources/PeakmodoroShared/SnapshotPolicy.swift","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/sources"]
+    outputs: ["/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/Models.swift.o","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/OperationalStateStore.swift.o","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/SnapshotPolicy.swift.o","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/Modules/PeakmodoroShared.swiftmodule"]
+    description: "Compiling Swift Module 'PeakmodoroShared' (3 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","PeakmodoroShared","-emit-dependencies","-emit-module","-emit-module-path","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/Modules/PeakmodoroShared.swiftmodule","-output-file-map","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/sources","-I","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx15.0","-incremental","-enable-batch-mode","-serialize-diagnostics","-index-store-path","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j10","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/include/PeakmodoroShared-Swift.h","-swift-version","6","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","apple"]
+
+  "C.PeakmodoroValidation-arm64-apple-macosx15.0-debug.exe":
+    tool: shell
+    inputs: ["/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/Models.swift.o","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/OperationalStateStore.swift.o","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroShared.build/SnapshotPolicy.swift.o","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.build/main.swift.o","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.product/Objects.LinkFileList"]
+    outputs: ["/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation"]
+    description: "Linking ./.build/arm64-apple-macosx/debug/PeakmodoroValidation"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-L","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug","-o","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation","-module-name","PeakmodoroValidation","-Xlinker","-no_warn_duplicate_libraries","-emit-executable","-Xlinker","-alias","-Xlinker","_PeakmodoroValidation_main","-Xlinker","_main","-Xlinker","-rpath","-Xlinker","@loader_path","@/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-6.2/macosx","-target","arm64-apple-macosx15.0","-Xlinker","-add_ast_path","-Xlinker","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/Modules/PeakmodoroShared.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/Modules/PeakmodoroValidation.swiftmodule","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g"]
+
+  "C.PeakmodoroValidation-arm64-apple-macosx15.0-debug.exe-entitlements":
+    tool: shell
+    inputs: ["/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation-entitlement.plist"]
+    outputs: ["<PeakmodoroValidation-arm64-apple-macosx15.0-debug.exe-CodeSigning>"]
+    description: "Applying debug entitlements to ./.build/arm64-apple-macosx/debug/PeakmodoroValidation"
+    args: ["codesign","--force","--sign","-","--entitlements","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation-entitlement.plist","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation"]
+
+  "C.PeakmodoroValidation-arm64-apple-macosx15.0-debug.module":
+    tool: shell
+    inputs: ["/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Validation/main.swift","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/Modules/PeakmodoroShared.swiftmodule","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.build/sources"]
+    outputs: ["/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.build/main.swift.o","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/Modules/PeakmodoroValidation.swiftmodule"]
+    description: "Compiling Swift Module 'PeakmodoroValidation' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","PeakmodoroValidation","-emit-dependencies","-emit-module","-emit-module-path","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/Modules/PeakmodoroValidation.swiftmodule","-output-file-map","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.build/output-file-map.json","-incremental","-c","@/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/PeakmodoroValidation.build/sources","-I","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx15.0","-incremental","-enable-batch-mode","-serialize-diagnostics","-index-store-path","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j10","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","PeakmodoroValidation_main","-swift-version","6","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","apple"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Sources/PeakmodoroShared/","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Validation/","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Package.swift","/Volumes/128/usaBOXING_repo/GREENFIELD/apple/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

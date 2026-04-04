@@ -1,0 +1,11 @@
+[package]
+name = "peakcore-estimator"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+peakcore-model = { path = "../peakcore-model" }
+
+[lib]
+path = "src/lib.rs"

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleDisplayName</key>
+  <string>Peakmodoro</string>
+  <key>NSHealthShareUsageDescription</key>
+  <string>Peakmodoro uses heart rate, HRV, sleep, and respiratory data to compute focus readiness.</string>
+  <key>NSHealthUpdateUsageDescription</key>
+  <string>Peakmodoro reads workout-session heart rate updates to keep the watch session in sync.</string>
+  <key>UISupportedInterfaceOrientations</key>
+  <array>
+    <string>UIInterfaceOrientationPortrait</string>
+  </array>
+</dict>
+</plist>

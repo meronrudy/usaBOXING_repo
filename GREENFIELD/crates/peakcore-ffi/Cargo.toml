@@ -1,0 +1,13 @@
+[package]
+name = "peakcore-ffi"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+peakcore-estimator = { path = "../peakcore-estimator" }
+peakcore-model = { path = "../peakcore-model" }
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["staticlib", "rlib"]
