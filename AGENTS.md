@@ -1,7 +1,7 @@
 # AGENTS.md
 
 ## Purpose
-This repo is a sport-agnostic, actor-agnostic, `no_std`-first Rust platform with thin Apple hosts. It is deterministic and procurement-friendly by design.
+This repo is the foundation for trustworthy sport intelligence: sport-agnostic, actor-agnostic, `no_std`-first Rust with thin Apple hosts. Keep it deterministic, inspectable, and procurement-friendly by design.
 
 ## Non-Negotiables
 - `no_std` kernel by default; `alloc` optional.
@@ -47,7 +47,7 @@ See `docs/BUNDLE_FORMAT.md`. FFI mechanism is fixed to C ABI with thin Swift wra
 Unit, property, fixture, and golden tests under crate and runtime `tests/`.
 
 ## Security & Robustness
-Strict validation, checksums, bounded memory, safe FFI boundary.
+Strict validation, checksums, bounded memory, and a safe FFI boundary. Bad inputs should fail loudly before they can become confident-looking outputs.
 
 ## Boundaries
 - `no_std`: schemas, units, validation primitives, traits

@@ -1,6 +1,11 @@
-# BUNDLE_FORMAT
+# Bundle Format
+
+A session bundle is the portable evidence package for an athlete session. It keeps the raw capture context, validated metadata, timing anchors, and assets together so downstream tools can inspect, reproduce, and explain every derived result.
 
 ## Layout
+
+The bundle is intentionally boring on disk. Boring is good here: predictable files, explicit checksums, and no hidden state.
+
 ```text
 SessionBundle/
   manifest.json
@@ -12,7 +17,10 @@ SessionBundle/
     video_main.mov
 ```
 
-## Manifest example
+## Manifest Example
+
+The manifest is the front door. It tells the runtime what should be present before anything more expensive or trust-sensitive begins.
+
 ```json
 {
   "bundle_version": "1",
@@ -23,3 +31,10 @@ SessionBundle/
   }
 }
 ```
+
+## Contract
+
+- Every bundle has a versioned manifest.
+- Every asset is counted and checksum-tracked.
+- Session, actor, instrument, and anchor data stay separate so validation can report precise failures.
+- Malformed or incomplete bundles are rejected explicitly instead of guessed into shape.
