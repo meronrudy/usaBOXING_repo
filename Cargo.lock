@@ -278,28 +278,504 @@ dependencies = [
 ]
 
 [[package]]
-name = "sport-boxing"
+name = "sport-olympic-archery"
 version = "0.1.0"
 dependencies = [
  "sportcore-kernel",
 ]
 
 [[package]]
-name = "sport-equestrian"
+name = "sport-olympic-artistic-gymnastics"
 version = "0.1.0"
 dependencies = [
  "sportcore-kernel",
 ]
 
 [[package]]
-name = "sport-rowing"
+name = "sport-olympic-artistic-swimming"
 version = "0.1.0"
 dependencies = [
  "sportcore-kernel",
 ]
 
 [[package]]
-name = "sport-swimming"
+name = "sport-olympic-badminton"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-baseball"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-basketball"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-basketball-3x3"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-beach-volleyball"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-bmx"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-boxing"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-canoe-kayak"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-climbing"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-coastal-rowing"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-cricket"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-cycling"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-diving"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-equestrian"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-fencing"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-field-hockey"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-flag-football"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-golf"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-handball"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-judo"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-lacrosse"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-modern-pentathlon"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-mountain-bike"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-open-water-swimming"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-rhythmic-gymnastics"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-rowing"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-rugby-sevens"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-sailing"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-shooting"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-skateboarding"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-soccer"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-softball"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-squash"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-surfing"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-swimming"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-table-tennis"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-taekwondo"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-tennis"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-track-and-field"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-trampoline-gymnastics"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-triathlon"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-volleyball"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-water-polo"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-weightlifting"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-olympic-wrestling"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-paralympic-blind-soccer"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-paralympic-boccia"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-paralympic-goalball"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-paralympic-para-archery"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-paralympic-para-badminton"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-paralympic-para-climbing"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-paralympic-para-cycling"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-paralympic-para-equestrian"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-paralympic-para-judo"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-paralympic-para-kayak"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-paralympic-para-powerlifting"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-paralympic-para-rowing"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-paralympic-para-shooting"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-paralympic-para-swimming"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-paralympic-para-table-tennis"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-paralympic-para-taekwondo"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-paralympic-para-track-and-field"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-paralympic-paracanoe"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-paralympic-paratriathlon"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-paralympic-sitting-volleyball"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-paralympic-wheelchair-basketball"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-paralympic-wheelchair-fencing"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-paralympic-wheelchair-rugby"
+version = "0.1.0"
+dependencies = [
+ "sportcore-kernel",
+]
+
+[[package]]
+name = "sport-paralympic-wheelchair-tennis"
 version = "0.1.0"
 dependencies = [
  "sportcore-kernel",

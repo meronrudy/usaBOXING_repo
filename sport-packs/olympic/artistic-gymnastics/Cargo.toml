@@ -1,0 +1,7 @@
+[package]
+name = "sport-olympic-artistic-gymnastics"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sportcore-kernel = { path = "../../../crates/sportcore-kernel" }

@@ -17,4 +17,4 @@ equestrian = []
 equine = []
 
 [dependencies]
-sportcore-kernel = { path = "../../crates/sportcore-kernel" }
+sportcore-kernel = { path = "../../../crates/sportcore-kernel" }

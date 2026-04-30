@@ -24,10 +24,8 @@ members = [
   "actor-packs/actor-human",
   "actor-packs/actor-equine",
   "actor-packs/actor-crewed-rig",
-  "sport-packs/sport-boxing",
-  "sport-packs/sport-swimming",
-  "sport-packs/sport-rowing",
-  "sport-packs/sport-equestrian",
+  "sport-packs/olympic/*",
+  "sport-packs/paralympic/*",
 ]
 
 [workspace.package]
